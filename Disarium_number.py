@@ -6,10 +6,9 @@ r = 0
 while t>0:
     r = t%10
     s+=r**l
-    t = t//10
+    t =t//10
     l=l-1
-        
-if s==n:
+if  s==n:
     print("True")
 else:
     print("False")
